@@ -1,0 +1,90 @@
+.program{
+    background-color: #273895;
+    .program_main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 100px 80px;
+        h1{
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 44px;
+            color: #FFFFFF;
+        }
+        .program_cards{
+            display: flex;
+            gap: 32px;
+
+            .program_card{
+                h2{
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 150%;
+                    background: linear-gradient(93.03deg, #4614E8 11.01%, #BCA7FF 78.81%), #FFFFFF;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    text-align: center;
+                    margin-bottom: 16px;
+                }
+                p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    
+                }
+            }
+        }
+    }
+}
+@media(max-width:1217px){
+    .program{
+        .program_main{
+            padding: 100px 20px;
+        }
+    }
+}
+@media(max-width: 1088px){
+    .program{
+        .program_main{
+            flex-direction: column;
+            gap: 38px;
+            text-align: center;
+        }
+    }
+}
+@media(max-width: 721px){
+    .program{
+        .program_main{
+            .program_cards{
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media(max-width: 425px){
+    .program{
+        .program_main{
+            h1{
+                font-size: 24px;
+            }
+            .program_cards{
+                // gap: 8px;
+                .program_card{
+                    h2{
+                        font-size: 24px;
+                        margin-bottom: 8px;     
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,156 @@
+.teacher{
+    padding-top: 144px;
+    background-color: #F4F7FA;
+    padding-bottom: 144px;
+    .teacher_main{
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+        gap: 96px;
+        .teacher_img{
+            position: relative;
+            .teacher_img_card{
+                height: 125px;
+                position: absolute;
+                width: 360px;
+                background: linear-gradient(331.41deg, #F0EBFF -4.05%, #FFFFFF 34.42%);
+                box-shadow: 0px 13.5277px 39.7872px rgba(187, 166, 255, 0.2);
+                border-radius: 11.9362px;
+                bottom: -25px;
+                right: -129px;
+                padding: 16px 32px 32px;
+                h4{
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 16px;
+                    display: flex;
+                    align-items: center;
+                    color: #303030;
+                                        
+                }
+                p{
+                    font-style: italic;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 16px;
+                    color: #303030;
+                    margin-top: 15px;
+
+                }
+            }
+        }
+        .teacher_text{
+            margin-top: 60px;
+            h6{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: #404040;
+            }
+            h1{
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 44px;
+                color: #303030;
+                margin-bottom: 16px;
+
+            }
+            h5{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: #404040;
+                margin-bottom: 36px;
+
+            }
+            p{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: #404040;
+                margin-top: 16px;
+                ul{
+                    li{
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 20px;
+                        color: #404040;
+                    }
+                }
+
+            }
+            button{
+                margin-top: 32px;
+                width: 251px;
+                height: 56px;
+                background-color: #273895;
+                border-radius: 15px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 18px;
+                text-align: center;
+                color: #FFFFFF;
+                border: 0;
+
+            }
+        }
+    }
+}
+
+@media(max-width:950px){
+    .teacher{
+        .teacher_main{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+@media(max-width: 750px){
+    .teacher{
+        .teacher_main{
+            .teacher_img{
+                .teacher_img_card{
+                    position: static;
+                    width: 419px;
+                    margin-top: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 450px){
+    .teacher{
+        
+        .teacher_main{
+            padding: 20px;
+            .teacher_img{
+                img{
+                    width: 100%;
+                }
+                .teacher_img_card{
+                    width: 100%;
+                }
+            }
+            .teacher_text{
+                h1{
+                    font-size: 24px;
+                }
+                h5{
+                    font-size: 12px;
+                    margin-bottom: 16px;
+                }
+                h6{
+                    font-size: 12px;
+                }
+                button{
+                    width: 220px;
+                    height: 50px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

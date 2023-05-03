@@ -1,0 +1,418 @@
+.tarif{
+    padding-top: 144px;
+    background-color: #F4F7FA;
+    padding-bottom: 180px;
+
+    .tarif_main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 44px;
+            text-align: center;
+            color: #303030;
+            margin-bottom: 16px;
+        }
+        p{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            text-align: center;
+            color: #404040;
+        }
+        .tarif_buttons{
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+            margin-bottom: 32px;
+            gap: 30px;
+            button{
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                text-align: center;
+                color: #273895;
+                width: 133px;
+                height: 50px;
+                border-radius: 15px;
+                border: 0;
+                background-color: inherit;
+                position: relative;
+                transition: all 0.2s;
+                &::after{
+                    content: ' ';
+                    position: absolute;
+                    height: 1px;
+                    width: 50%;
+                    background-color: #273895;
+                    bottom: 0;
+                    left: 30%;
+                }
+                &:focus{
+                    background: #273895;
+                    color: #ffff;
+                }
+                
+                
+            }
+        }
+        .tarif_cards{
+            display: grid;
+            grid-template-areas:"card1 card1"
+                                "card2 card3"
+                                "card4 card5";
+            gap: 20px;
+            .tarif_free{
+                grid-area: card1;
+                width: 1062px;
+                height: 500px;
+                background: #FFFFFF;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 48px 0;
+                h3{
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 30px;
+                    text-align: center;
+                    letter-spacing: 0.15em;
+                    text-transform: uppercase;
+                    color: #2741D0;
+                    margin-bottom: 8px; 
+    
+                }
+                h2{
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 44px;
+                    text-align: center;
+                    color: #C9C9C9;
+                    margin-bottom: 16px;
+    
+                }
+                p{
+                    font-weight: 400;
+                    font-size: 14px;    
+                    line-height: 30px;
+                    text-align: center;
+                    color: #737373;
+                    margin-bottom: 16px;
+    
+                }
+                h5{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 30px;
+                    text-align: center;
+                    color: #404040;
+                    margin-bottom: 16px;
+    
+                }
+                .tarif_free_text{
+                    display: flex;
+                    gap: 25px;
+                    h6{
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 30px;
+                        color: #404040;
+                        margin-bottom: 8px;
+                        img{
+                            margin-right: 9px;
+                        }
+                    }
+    
+                }
+                a{
+                    display: flex;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 40px;
+                    color: #2741D0;
+                    align-items: center;
+                    gap: 16px;
+                    margin-bottom: 16px;
+                }
+                button{
+                    width: 220px;
+                    height: 56px;
+                    background-color: #273895;
+                    border-radius: 15px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 18px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    border: 0;
+                }
+            }
+            .tarif_card{
+                width: 513px;
+                height: 647px;
+                background: #FFFFFF;
+                border-radius: 20px;
+                padding: 48px;
+                h3{
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 30px;
+                    letter-spacing: 0.15em;
+                    text-transform: uppercase;
+                    color: #2741D0;
+                    margin-bottom: 16px;
+
+                }
+                p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 30px;
+                    color: #737373;
+                    text-align: left;
+                    margin-bottom: 16px;
+
+                }
+                h4{
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 30px;
+                    color: #404040;
+                    margin-bottom: 16px;
+
+
+
+                }
+                h5{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 30px;
+                    color: #404040;
+                    margin-bottom: 16px;
+
+                    
+                }
+                h6{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #404040;
+                    margin-bottom: 16px;
+                    img{
+                        margin-right: 9px;
+                    }
+
+                }
+                a{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 40px;
+                    color: #2741D0;
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+                    margin-bottom: 16px;
+
+                    
+                }
+                button{
+                    width: 220px;
+                    height: 56px;
+                    left: 239px;
+                    top: 4066px;
+                    border: 0;
+                    background: #273895;
+                    border-radius: 15px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 18px;
+                    color: #FFFFFF;
+                    
+                }
+            }
+            .tarif_card1{
+                grid-area: card2;
+            }
+            .tarif_card2{
+                grid-area: card3;
+            }
+            .tarif_card3{
+                grid-area: card4;
+            }
+            .tarif_card4{
+                grid-area: card5;
+            }
+        }
+    }
+}
+
+@media(max-width:1079px){
+    .tarif{
+        .tarif_main{
+            .tarif_cards{
+                .tarif_free{
+                    width: 100%;
+                    .tarif_free_text{
+                        flex-direction: column;
+                        text-align: left;
+                    }
+                }
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+
+            }
+        }
+    }
+}
+
+@media(max-width:1079px){
+    .tarif{
+        .tarif_main{
+            .tarif_cards{
+                .tarif_free{
+                    width: 513px;
+                    height: 647px;
+                    background: #FFFFFF;
+                    border-radius: 20px;
+                    padding: 48px;
+                    align-items: start;
+                    .tarif_free_text{
+                        gap: 0;
+                        h6{
+                            margin-bottom: 16px;    
+                        }
+                    }
+                    align-items: initial;
+                }
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+
+            }
+        }
+    }
+}
+
+@media(max-width: 550px){
+    .tarif{
+        .tarif_main{
+            .tarif_cards{
+                .tarif_free{
+                    width: 100%;
+                    h3{
+                        text-align: center;
+                    }
+                    p{
+                        text-align: center;
+                    }
+                    h4{
+                        text-align: center;
+                    }
+                    h5{
+                        text-align: center;
+                    }
+                }
+                .tarif_card{
+                    width: 100%;
+                    h3{
+                        text-align: center;
+                    }
+                    p{
+                        text-align: center;
+                    }
+                    h4{
+                        text-align: center;
+                    }
+                    h5{
+                        text-align: center;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media(max-width: 373px){
+    .tarif{
+        .tarif_main{
+            .tarif_cards{
+                .tarif_free{
+                    height: 100%;
+                    padding: 24px;
+                    h3{
+                        font-size: 12px;
+                        margin-bottom: 4px;
+                    }
+                    h2{
+                        font-size: 18px;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                    h4{
+                        font-size: 14px;
+                    }
+                    h5{
+                        font-size: 12px;
+                    }
+                    h6{
+                        font-size: 12px;
+                        margin-bottom: 8px;
+                    }
+                    a{
+                        font-size: 12px;
+                        gap: 8px;
+                        img{
+                            width: 13px;
+                        }
+                    }
+                    button{
+                        width: 220px;
+                        height: 50px;
+                        font-size: 12px;
+                    }
+                }
+                .tarif_card{
+                    height: 100%;
+                    h3{
+                        font-size: 12px;
+                        margin-bottom: 4px;
+                    }
+                    h2{
+                        font-size: 18px;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                    h4{
+                        font-size: 14px;
+                    }
+                    h5{
+                        font-size: 12px;
+                    }
+                    h6{
+                        font-size: 12px;
+                        margin-bottom: 8px;
+                    }
+                    a{
+                        font-size: 12px;
+                        gap: 8px;
+                        img{
+                            width: 13px;
+                        }
+                    }
+                    button{
+                        width: 220px;
+                        height: 50px;
+                        font-size: 12px;
+                    } 
+                }
+            }
+        }
+    }
+}
